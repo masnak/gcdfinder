@@ -10,6 +10,8 @@ num_b = gets.chomp.to_i
 
 
 reminder = 1
+origin_a = num_a
+origin_b = num_b
 
 while reminder != 0 do
 
@@ -20,7 +22,11 @@ while reminder != 0 do
 end
 
 puts ""
-puts "*** The G.C.D. is ... ***"
+print "*** G.C.D. of "
+print origin_a
+print " and "
+print origin_b
+print " is... "
 puts ""
 puts num_a
 puts ""
