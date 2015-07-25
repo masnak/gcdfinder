@@ -20,7 +20,11 @@ while reminder != 0 do
 end
 
 puts ""
-puts "*** The G.C.D. is ... ***"
+print "*** G.C.D. of "
+print num_a 
+print " and "
+print num_b 
+print " is... "
 puts ""
 puts num_a
 puts ""
